@@ -1,67 +1,174 @@
+html {
+    position: absolute;
+}
+
 body {
     
 }
-header {
 
+header {
+    Margin-top: -8px;
+    margin-left: 350px;
+    margin-right: 60%;
+    margin-bottom: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 50px;
+    background-color: turquoise;
+    text-align: center;
+}
+
+#headerBackground {
+    position: relative;
+    background-color: white;
+    border-bottom: solid black 2px;
+    margin-bottom: 50px;
+    height: 87px;
+}
+
+footer {
+    text-align: center;
+    background-color: gray;
+    height: 80px;
+    margin-top: 700px;
+    border-top: solid 5px turquoise;
 }
 
 nav {
-
+    float: right;
+    font-size: 25px;
+    margin-top: -110px;
+    
 }
 
 #aboutTab {
-
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    text-decoration: none;
 }
 
 #portfolioTab {
-
+    float: left;
+    margin-right: 40px;
+    text-decoration: none;
 }
 
 #contactTab {
+    float: left;
+    margin-right: 350px;
+    text-decoration: none;
+} 
 
+#content {
+    background-color:white;
+    border: groove oldlace 1px;
+    margin: auto;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 15px;
+    font-size: 20px;
+    float: right;
+    width: 960px;
+    margin-bottom: 100px;
+}
+
+hr {
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 3px;
+    background-color: lightgrey;
 }
 
 h1 {
-
+    margin-left: 50px;
 }
 
-#profileImage {
-
+img {
+    float: left;
+    margin: 5px 10px 10px 50px;
 }
 
 #bioText {
-    
+    margin-right: 50px;
+}
+
+#p1 {
+    margin-left: 50px;
+}
+
+#p2 {
+    margin: 0;
+    margin-left: 50px;
+}
+
+#p3 {
+   margin: 0;
+   margin-left: 50px;
+}
+
+#portfolioContent {
+    background-color:white;
+    border: groove oldlace 1px;
+    margin: auto;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 15px;
+    font-size: 20px;
+    float: right;
+    width: 960px;
+    margin-bottom: 100px;
+}
+
+#portfolioFooter {
+    text-align: center;
+    background-color: gray;
+    height: 80px;
+    margin-top: 1000px;
+    border-top: solid 5px turquoise;
+}
+
+#portfolioList {
+    list-style: none;
 }
 
 #portfolio1 {
-
+    position: relative;
 }
 
 #portfolio2 {
-    
+    position: relative;
 }
 
 #portfolio3 {
-    
+    position: relative;
 }
 
 #portfolio4 {
-    
+    position: relative;
 }
 
 #portfolio5 {
-    
+    position: relative;
 }
 
 ul {
-
+    
 }
 
 #hangman {
-
+    position: relative;
+    left: -230px;
+    top: 140px;
+    background-color: turquoise;
+    margin-left: 280px;
+    margin-right: 330px;
+    height: 60px;
+    padding: 0px;
 }
 
 #rpgGame {
+ 
 
 }
 
@@ -70,11 +177,11 @@ ul {
 }
 
 #rutgersInfoWidget {
-
+   
 }
 
 #rockPaperScissors {
-
+   
 }
 
 form {
@@ -82,13 +189,16 @@ form {
 }
 
 #nameBox{
-
+    height: 20px;
+    width: 960px;
 }
 
 #emailBox {
-
+    height: 20px;
+    width: 960px;
 }
 
 #messageBox {
-
+    height: 300px;
+    width: 960px;
 }

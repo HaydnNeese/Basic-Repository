@@ -6,26 +6,32 @@
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />    
     </head>
     <body background= "assets/images/background_image.png">
-        <header>Haydn Neese</header>
-        <nav>
-            <a id="aboutTab" href="index.html">About</a>
-            <a id="portfolioTab" href="portfolio.html">Portfolio</a>
-            <a id="contactTab" href="contact.html">Contact</a>
-        </nav>
-        <h1>Portfolio</h1>
-        <hr>
-        <img id="portfolio1" src= "assets/images/portfolio_1.jpeg" alt= "Profile Picture" height="200px" width="350px">
-        <img id="portfolio2" src= "assets/images/portfolio_2.jpeg" alt= "Profile Picture" height="200px" width="350px">
-        <img id="portfolio3" src= "assets/images/portfolio_3.jpeg" alt= "Profile Picture" height="200px" width="350px">
-        <img id="portfolio4" src= "assets/images/portfolio_4.jpeg" alt= "Profile Picture" height="200px" width="350px">
-        <img id="portfolio5" src= "assets/images/portfolio_5.jpeg" alt= "Profile Picture" height="200px" width="350px">
-        <ul>
-            <li id="hangman">Hangman</li>
-            <li id="rpgGame">RPG Game</li>
-            <li id="triviaGame">Trivia Game</li>
-            <li id="rutgersInfoWidget">Rutgers Info Widget</li>
-            <li id="rockPaperScissors">Rock Paper Scissors</li>
-        </ul>   
-        <footer>Copyright&copy;</footer> 
+        <div id= "headerBackground">
+            <div>
+                <header> Haydn Neese </header>
+                <nav>
+                    <a id="aboutTab" href="index.html">About&nbsp;&nbsp;&nbsp;|</a>
+                    <a id="portfolioTab" href="portfolio.html">Portfolio&nbsp;&nbsp;&nbsp;|</a>
+                    <a id="contactTab" href="contact.html">Contact</a>    
+                </nav>    
+            </div>  
+        </div> 
+        <div id="portfolioContent">
+            <h1>Portfolio</h1>
+            <hr>
+            <div id="portFolder">
+                <img id="portfolio1" src= "assets/images/portfolio_1.jpeg" alt= "Profile Picture" height="200px" width="350px">
+                <p id="hangman">Hangman</p>
+                <img id="portfolio2" src= "assets/images/portfolio_2.jpeg" alt= "Profile Picture" height="200px" width="350px">
+                <p id="rpgGame">RPG Game</p>
+                <img id="portfolio3" src= "assets/images/portfolio_3.jpeg" alt= "Profile Picture" height="200px" width="350px">
+                <p id="triviaGame">Trivia Game</p>
+                <img id="portfolio4" src= "assets/images/portfolio_4.jpeg" alt= "Profile Picture" height="200px" width="350px">
+                <p id="rutgersInfoWidget">Rutgers Info Widget</p>
+                <img id="portfolio5" src= "assets/images/portfolio_5.jpeg" alt= "Profile Picture" height="200px" width="350px">
+                <p id="rockPaperScissors">Rock Paper Scissors</p>
+            </div>
+        </div>  
+        <footer id="portfolioFooter">Copyright&copy;</footer> 
     </body>
 </html>
