@@ -128,28 +128,38 @@ img {
     border-top: solid 5px turquoise;
 }
 
-#portfolioList {
-    list-style: none;
-}
-
 #portfolio1 {
     position: relative;
+    float: left;
+    border: groove 5px lightgrey;
 }
 
 #portfolio2 {
     position: relative;
+    float: left;
+    bottom: 90px;
+    border: groove 5px lightgrey;
 }
 
 #portfolio3 {
     position: relative;
+    float: left;
+    bottom: 60px;
+    border: groove 5px lightgrey;
 }
 
 #portfolio4 {
     position: relative;
+    float: left;
+    bottom: 60px;
+    border: groove 5px lightgrey;
 }
 
 #portfolio5 {
     position: relative;
+    float: left;
+    bottom: 25px;
+    border: groove 5px lightgrey;
 }
 
 ul {
@@ -158,30 +168,54 @@ ul {
 
 #hangman {
     position: relative;
-    left: -230px;
+    left: -250px;
     top: 140px;
     background-color: turquoise;
-    margin-left: 280px;
-    margin-right: 330px;
-    height: 60px;
-    padding: 0px;
+    margin-left: 300px;
+    margin-right: 310px;
+    height: 35px;
+    padding: 10px;
+    font-size: 30px;
 }
 
 #rpgGame {
- 
-
+    position: relative;
+    background-color: turquoise;
+    top: 50px;
+    right: 250px;
+    margin-right: -100px;
+    margin-left: 710px;
+    padding: 10px;
+    height: 35px;
+    font-size: 30px;
 }
 
 #triviaGame {
-
+    position: relative;
+    background-color: turquoise;
+    top: 210px;
+    right: 675px;
+    margin-right: -115px;
+    margin-left: 725px;
+    padding: 10px;
+    font-size: 30px;
 }
 
 #rutgersInfoWidget {
-   
+    position: relative;
+    background-color: turquoise;
+    font-size: 30px;
+    margin-left: 775px;
+    right: 300px;
+    top: 125px;
+    padding: 10px;
+    margin-right: -166px;
 }
 
 #rockPaperScissors {
-   
+    position: relative;
+    background-color: ;
+    font-size: 30px;
 }
 
 form {
