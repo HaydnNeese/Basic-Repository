@@ -3,25 +3,45 @@
     <head>
         <meta charset="utf-8" />  
         <title>Portfolio-Contact</title>    
-        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />    
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />  
+        <!-- <link rel="stylesheet" href="assets/css/reset.css">   -->
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
     </head>
     <body background= "assets/images/background_image.png">
-        <header>Haydn Neese</header>
-        <nav>
-            <a id="aboutTab" href="index.html">About</a>
-            <a id="portfolioTab" href="portfolio.html">Portfolio</a>
-            <a id="contactTab" href="contact.html">Contact</a>
-        </nav>
-        <h1>Contact</h1>
-        <hr>
-        <form>
-            Name<br>
-            <input id="nameBox" type="text" name="name"><br>
-            Email<br>
-            <input id="emailBox" type="text" email="email"><br>
-            Message<br>
-            <input id="messageBox" type="text" message="message"><br>
-        </form>
-        <footer>Copyright&copy;</footer>
+        <div id= "headerBackground">
+            <div>
+                <header id= "contactHeader"> Haydn Neese </header>
+                <nav>
+                    <a id="aboutTab" href="index.html">About&nbsp;&nbsp;&nbsp;|</a>
+                    <a id="portfolioTab" href="portfolio.html">Portfolio&nbsp;&nbsp;&nbsp;|</a>
+                    <a id="contactTab" href="contact.html">Contact</a>    
+                </nav>    
+            </div>  
+        </div> 
+        <div id="contentContact">
+                <h1>Contact</h1>
+                <hr>
+                    <div class="formInput"></div>
+                        <form>
+                                <div id="">
+                                    Name<br>
+                                    <input id="nameBox" type="text" name="name"><br>
+                                </div>
+                                <div id="">
+                                    Email<br>
+                                    <input id="emailBox" type="text" email="email"><br>
+                                </div >
+                                <div id="messageBox">
+                                    Message<br>
+                                    <input id="messageBox" type="text" message="message"><br>
+                                </div>
+                        </form>
+                        <div>
+                            <button type="submit">Submit</button>
+                        </div>
+                    </div>
+        </div>
+    </form>
+        <footer id= "contactFooter">Copyright&copy;</footer>
     </body>
 </html>

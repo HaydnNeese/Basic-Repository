@@ -1,7 +1,3 @@
-html {
-    position: absolute;
-}
-
 body {
     
 }
@@ -26,12 +22,22 @@ header {
     height: 87px;
 }
 
-footer {
+#aboutFooter {
     text-align: center;
     background-color: gray;
     height: 80px;
     margin-top: 700px;
     border-top: solid 5px turquoise;
+    padding-bottom: 10px;
+}
+
+#contactFooter {
+    text-align: center;
+    background-color: gray;
+    height: 40px;
+    margin-top: 700px;
+    border-top: solid 5px turquoise;
+    padding-top: 35px;
 }
 
 nav {
@@ -59,7 +65,7 @@ nav {
     text-decoration: none;
 } 
 
-#content {
+.content {
     background-color:white;
     border: groove oldlace 1px;
     margin: auto;
@@ -73,14 +79,15 @@ nav {
 }
 
 hr {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
     height: 3px;
     background-color: lightgrey;
 }
 
 h1 {
     margin-left: 50px;
+    font-family: 'Fira Sans' , sans-serif;
 }
 
 img {
@@ -120,11 +127,15 @@ img {
 }
 
 #portfolioFooter {
+    position: absolute;
     text-align: center;
     background-color: gray;
-    height: 80px;
+    margin-bottom: 0px;
     margin-top: 1000px;
+    height: 50px;
+    width: 1680px;
     border-top: solid 5px turquoise;
+    padding-top: 30px;
 }
 
 #portfolio1 {
@@ -222,21 +233,49 @@ ul {
     padding: 10px;
 }
 
+
 form {
+    position: absolute;
+    margin: auto;
+}
+
+#contentContact {
+        background-color:white;
+        border: groove oldlace 1px;
+        margin: auto;
+        margin-left: 330px;
+        margin-right: 330px;
+        padding: 15px;
+        font-size: 20px;
+        float: right;
+        width: 920px;
+        margin-bottom: 100px;
+        height: 560px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+.formInput  {
 
 }
 
 #nameBox{
     height: 20px;
-    width: 960px;
+    width: 920px;
 }
 
 #emailBox {
     height: 20px;
-    width: 960px;
+    width: 920px;
 }
 
 #messageBox {
     height: 300px;
-    width: 960px;
+    width: 920px;
+}
+
+button {
+    position: absolute;
+    top: 690px;
+    font-size: 20px;
 }
